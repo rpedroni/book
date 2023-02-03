@@ -60,7 +60,7 @@ solc-version = "0.8.17"
 via_ir = true
 ```
 
-To reduce compilation speeds during development and testing, one approach is to have a `lite` profile that has the optimizer off and use this for development/testing cycle. The updated config file for regular compilation may look like this:
+To reduce compilation time during development and testing, one approach is to have a `lite` profile that has the optimizer off and use this for development/testing cycle. The updated config file for regular compilation may look like this:
 
 ```toml
 [profile.default]
